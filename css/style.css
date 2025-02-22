@@ -130,11 +130,11 @@
   }
 
   .outer-div{
-    height: 350px;
+    height: 400px;
     overflow: hidden;
   }
   .inner-div1{
-    height:500px;
+    height:400px;
     width:100%;
     background-size:cover;
     background-position:center;
@@ -149,3 +149,21 @@
     transition: all 0.5s ease;
     background-image: url('../img/c5.jpg');
   }
+  .inner-div1:hover{
+    transform: scale(1.2);
+  }
+  .inner-div2:hover{
+    transform: scale(1.2);
+  }
+  .zoom-box-text{
+    text-align: center;
+    line-height: 300px;
+    color:white;
+  }
+  .counter{
+    background-image: url(../img/c3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(17, 15, 15);
+  }
+ 
